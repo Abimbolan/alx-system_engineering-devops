@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "ibase=2;obase=10;101" | bc
+echo $(($2#101))
